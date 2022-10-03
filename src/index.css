@@ -1,4 +1,34 @@
+*,
+*::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--coffee-clr: #6e4e37a3;
+}
+
+:root,
+html,
+body,
+#root {
+	height: 100%;
+}
+
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background: url('assets/coffee-bg.jpg'), var(--coffee-clr);
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+	font-family: sans-serif;
+}
+
+#root {
+	padding: 0.4em;
 }
