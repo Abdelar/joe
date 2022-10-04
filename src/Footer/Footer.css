@@ -1,0 +1,24 @@
+.Footer {
+	min-height: 5%;
+	margin: 0 auto;
+	max-width: 900px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: small;
+	/* background-color: #0002; */
+}
+
+.Footer > * {
+	color: #fff8;
+}
+
+.Footer a {
+	text-decoration: none;
+}
+
+.Footer a:hover,
+.Footer a:focus {
+	text-decoration: underline;
+}

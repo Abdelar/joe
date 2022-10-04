@@ -7,7 +7,9 @@
 }
 
 :root {
-	--coffee-clr: #6e4e37a3;
+	--coffee-clr: #6e4e37;
+	--coffee-clr-shadow: #6e4e37a3;
+	--dark-clr: #11100e;
 }
 
 :root,
@@ -20,11 +22,12 @@ body,
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: url('assets/coffee-bg.jpg'), var(--coffee-clr);
+	background: url('assets/coffee-bg.jpg'), var(--coffee-clr-shadow);
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	background-attachment: fixed;
 	color: white;
 	font-family: sans-serif;
 }

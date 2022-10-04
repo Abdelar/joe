@@ -1,0 +1,13 @@
+.Time {
+	background-color: #fff1;
+	padding: 0.7em 1.5em;
+	/* border: 1px solid #fff2; */
+	border-radius: 9em;
+	height: 9em;
+	width: 9em;
+	font-size: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 3em;
+}

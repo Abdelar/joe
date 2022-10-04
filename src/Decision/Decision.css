@@ -1,0 +1,26 @@
+/* .Decision {
+}
+
+.question {
+} */
+
+.answer {
+	margin: 1em 0;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+.justification {
+	color: #fff7;
+	font-size: 0.8em;
+}
+
+.justification a {
+	text-decoration: none;
+	color: #fff4;
+}
+
+.justification a:hover,
+.justification a:focus {
+	text-decoration: underline;
+}
