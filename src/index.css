@@ -6,12 +6,6 @@
 	box-sizing: border-box;
 }
 
-:root {
-	--coffee-clr: #6e4e37;
-	--coffee-clr-shadow: #6e4e37a3;
-	--dark-clr: #11100e;
-}
-
 :root,
 html,
 body,
@@ -22,7 +16,7 @@ body,
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: url('assets/coffee-bg.jpg'), var(--coffee-clr-shadow);
+	background: url('assets/coffee-bg.jpg'), #6e4e37a3;
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-position: center center;
