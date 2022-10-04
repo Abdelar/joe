@@ -3,8 +3,8 @@ import './Decision.css';
 export const Decision = ({ currentTime }: { currentTime: Date }) => {
 	const currentHour = currentTime.getHours();
 	const feedback: boolean =
-		(currentHour >= 10 && currentHour <= 12) ||
-		(currentHour >= 14 && currentHour <= 16);
+		(currentHour >= 10 && currentHour < 12) ||
+		(currentHour >= 14 && currentHour < 16);
 
 	return (
 		<section className='Decision'>
